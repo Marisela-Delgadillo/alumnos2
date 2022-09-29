@@ -11,5 +11,6 @@ import UIKit
 class CeldaMateriasController : UITableViewCell{
     
     @IBOutlet weak var lblNombre: UILabel!
+    
     @IBOutlet weak var lblCodigo: UILabel!
 }

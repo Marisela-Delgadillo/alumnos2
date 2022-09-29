@@ -56,17 +56,14 @@ class AlumnosController: UIViewController, UITableViewDelegate, UITableViewDataS
         materias3.append(Materia(nombre: "Dibujo", codigo: "DIB2"))
       
         ///
-        alumnos.append(Alumno(nombre: "Alejandra Esquer", carrera: "IPM", matricula: "209004", edad: 20, materias: materias1))
-        alumnos.append(Alumno(nombre: "Alejandra Esquer", carrera: "IPM", matricula: "209004", edad: 20, materias: materias2))
-        alumnos.append(Alumno(nombre: "Alejandra Esquer", carrera: "IPM", matricula: "209004", edad: 20, materias: materias3 ))
+        alumnos.append(Alumno(nombre: "Marisela Delgadillo", carrera: "IPM", matricula: "199419", edad: 21, materias: materias1))
+        alumnos.append(Alumno(nombre: "Azalia Pena", carrera: "IPM", matricula: "199229", edad: 21, materias: materias2))
+        alumnos.append(Alumno(nombre: "Danna Aguilar", carrera: "IPM", matricula: "199289", edad: 20, materias: materias3 ))
         
       
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+    
 
 
 }
