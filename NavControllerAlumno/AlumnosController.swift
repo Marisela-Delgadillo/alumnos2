@@ -46,13 +46,13 @@ class AlumnosController: UIViewController, UITableViewDelegate, UITableViewDataS
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        materias1.append(Materia(nombre: "Fotografìa", codigo: "FOT2"))
-        materias1.append(Materia(nombre: "Comunicaciòn", codigo: "COM1"))
+        materias1.append(Materia(nombre: "Redes Computacionales", codigo: "REDCOM1"))
+        materias1.append(Materia(nombre: "Comunicación", codigo: "COM3"))
         
-        materias2.append(Materia(nombre: "Programaciòn", codigo: "PROGRA3"))
-        materias2.append(Materia(nombre: "Mètodos nùmericos", codigo: "METNUM1"))
+        materias2.append(Materia(nombre: "Programaciòn", codigo: "PROG1"))
+        materias2.append(Materia(nombre: "Matemáticas", codigo: "MATE2"))
         
-        materias3.append(Materia(nombre: "Fìsica", codigo: "FIS2"))
+        materias3.append(Materia(nombre: "Física", codigo: "FIS2"))
         materias3.append(Materia(nombre: "Dibujo", codigo: "DIB2"))
       
         ///
